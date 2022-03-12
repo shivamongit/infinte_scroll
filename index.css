@@ -1,0 +1,21 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h1{
+  text-align: center;
+  
+}
+
+.container > div{
+  height: 650px;
+  width: 30%;
+  border: 16px solid rgb(160, 0, 0);
+  overflow-y: scroll;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 30px;
+}
